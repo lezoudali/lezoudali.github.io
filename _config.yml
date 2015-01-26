@@ -11,4 +11,7 @@ permalink: /:year/:month/:day/:title/
 paginate: 10
 highlighter: pygments
 
+# Build settings
+markdown: kramdown
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
