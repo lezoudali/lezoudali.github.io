@@ -3,9 +3,13 @@ layout: default
 title: About
 ---
 
-This is where you would but a short bio, and/or a description of your site. It also serves as an example of how to set up a standalone page. For example:
 
-<img src="/images/shakespeare.png" class="right" />
-**William Shakespeare** (26 April 1564 – 23 April 1616) was an English poet and playwright, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of about 38 plays, 154 sonnets, two long narrative poems, and a few other verses, the authorship of some of which is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.
+<img src="/images/lezou_dali.jpeg" class="right" />
+My name is **Lezou Dali**. I'm currently learning how to be a better developer at the [Flatiron School][flatiron]. I studied Electrical engineering and math in college but left to pursue a career in web development. Before starting Flatiron School, I was an afterschool instructor. I taught kids how to build and program robot using [Lego Mindstorms][nxt] and [MIT Scratch][scratch]. I've also worked as a research intern at [Brookhaven National Lab][bnl] for two summers. I love teaching and hope to one day teach people to code for a living. When I'm not coding (which rarely happens nowadays), I'm usually listening to music (mostly RnB, Soulful, House and Hip-Hop), watching soccer/football (English Premier League) or basketball (NBA). If you are on twitter, you can follow me [@lezoudali][twitter].
 
-Shakespeare was born and brought up in Stratford-upon-Avon. At the age of 18, he married Anne Hathaway—no, not *that* Anne Hathaway—with whom he had three children.
+
+[flatiron]:http://flatironschool.com/nycworkforce1/
+[scratch]: http://scratch.mit.edu/
+[nxt]: http://mindstorms.lego.com
+[bnl]: http://www.bnl.gov/
+[twitter]: http://www.twitter.com/lezoudali

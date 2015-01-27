@@ -33,7 +33,7 @@ table {
 /*** Basics ***/
 body {
 	font-family: Verdana, serif;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 1.7;
 }
 
@@ -196,6 +196,8 @@ img.left {
 img.right {
 	float: right;
 	margin: 0 0 1em 1em;
+	width: 30%; height: 30%;
+	border-radius: 100%;
 }
 img.center {
 	display: block;
