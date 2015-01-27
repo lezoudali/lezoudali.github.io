@@ -56,3 +56,6 @@ keyword: belle
 
 Encrypted text: xeyye iegp pvrns xpqzcvpa
 {% endhighlight %}
+
+[vigenere]: http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+[caesar]: http://en.wikipedia.org/wiki/Caesar_cipher
