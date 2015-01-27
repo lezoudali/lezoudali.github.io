@@ -8,7 +8,7 @@ twitter_username: lezoudali
 github_username: lezoudali
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
+paginate: 2
 highlighter: pygments
 
 # Build settings
