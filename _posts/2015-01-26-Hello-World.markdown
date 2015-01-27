@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "printf(“Hello, World\n!”);"
-date:   2015-01-26 17:03:00
-categories: jekyll update
+date:   2015-01-26 17:03:00 
 ---
 
 Hello world, I'm [Lezou Dali][twitter] (Ivory Coast, west africa, native French Speaker) and a current [Flatiron Fellow][flatiron].  I’ve decided to start blogging because they (flatiron) require us to. But more importantly, I think this is going to help me improve my communication skills and will also be a way to give back to the programming community. I will blog about programming/tech related subject and how I'm learning to be a better programmer. I’ve been programing (seriously) for about a year now. Programming is not easy and it’s time consuming; I consider myself a beginner and probably always will.
