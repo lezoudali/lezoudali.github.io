@@ -32,7 +32,7 @@ ArgumentError: wrong number of arguments (1 for 2)
 {% endhighlight %}
 
 As you see, we get this `ArgumentError` in both cases. In the first case, __add__ is expecting values for both `x` and `y`, but gets nothing. In the second case, __add__ is still expecting two values, for `x` and `y`, but gets no value for `y`. Thus, if we call the __add__ without passing exactly two values we get an `ArgumentError` because the method doesn't have anything to add. This brings us to our second main focus of this post, **default arguments**.
-Using a default parameter value can prevent you from getting an `ArgumentError`. Let's rewrite the __add__ method using default parameter values for `x` and `y`.
+Setting a default value to your paramater(s) can prevent you from getting an `ArgumentError`. Let's rewrite the __add__ method using default arguments for `x` and `y`.
 {% highlight ruby %}
 def add(x = 0, y = 0)
   x + y
@@ -51,6 +51,6 @@ Here we set both `x` and `y` with a default value of 0. if we now call the metho
 => 1
 {% endhighlight %}
 
-We don't get the `ArgumentError` as we did before, why? Because we gave default values to `x` and `y` when we redefined the add method; **`add(x = 0, y = 0)`**. The default value, for both `x` and `y`, is 0. We could've given them any default values, but 0 makes more sense for this particular method. Therefore, when don't explicitly give any values to `x` and `y`. They will get assigned to their default values of 0. And that is how default values work.
+We don't get the `ArgumentError` as we did before, why? Because we gave default values to `x` and `y` when we redefined the add method; **`add(x = 0, y = 0)`**. The default value, for both `x` and `y`, is 0. We could've given them any default values, but 0 makes more sense for this particular method. Therefore, when don't explicitly pass any arguments to `x` and `y`. They will get assigned to their default values of 0. And that is how default arguments work.
 
 **P.S What will happen if we pass more than two values to add? stay tuned to find out to fix that error. Thanks for reading.**
