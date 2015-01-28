@@ -12,7 +12,7 @@ def add(x, y)
 end
 {% endhighlight %}
 This method will take two arguments ``(x, y)`` and will return ``x + y``.
-`x` and `y` will both be assigned to 1 and 3, respectively. If we call __add__ with the values 1 and 3. We expect to get 4 as the return value. 
+`x` and `y` will be assigned 1 and 3, respectively. If we call __add__ with the values 1 and 3, then the expected return value is 4.
 {% highlight ruby %}
 >> add(1, 3)
 => 4
@@ -51,6 +51,6 @@ Here we set both `x` and `y` with a default value of 0. if we now call the metho
 => 1
 {% endhighlight %}
 
-We don't get the `ArgumentError` as we did before, why? Because we gave default values to `x` and `y` when we redefined the add method; **`add(x = 0, y = 0)`**. The default value, for both `x` and `y`, is 0. We could've given them any default values, but 0 makes more sense for this particular method. Therefore, when don't explicitly pass any arguments to `x` and `y`. They will get assigned to their default values of 0. And that is how default arguments work.
+We don't get the `ArgumentError` as we did before, why? Because we gave default values to `x` and `y` when we redefined the add method; **`add(x = 0, y = 0)`**. The default value, for both `x` and `y`, is 0. We could've given them any default values but 0 makes more sense for this particular method; therefore, when don't explicitly pass any arguments to `x` and `y`. They will get assigned to their default values of 0. And that is how default arguments work.
 
 **P.S What will happen if we pass more than two values to add? stay tuned to find out to fix that error. Thanks for reading.**
