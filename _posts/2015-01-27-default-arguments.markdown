@@ -44,9 +44,6 @@ Here we set both `x` and `y` with a default value of 0. if we now call the metho
 {% highlight ruby %}
 >> add()
 => 0
-{% endhighlight %}
-
-{% highlight ruby %}
 >> add(1)
 => 1
 {% endhighlight %}
