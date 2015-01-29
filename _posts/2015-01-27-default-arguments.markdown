@@ -11,8 +11,7 @@ def add(x, y)
   x + y 
 end
 {% endhighlight %}
-This method will take two arguments ``(x, y)`` and will return ``x + y``.
-`x` and `y` will be assigned 1 and 3, respectively. If we call __add__ with the values 1 and 3, then the expected return value is 4.
+This method will take two arguments ``(x, y)`` and will return ``x + y``. If we call __add__ with the values 1 and 3, then the expected return value is 4. `x` and `y` will be assigned 1 and 3, respectively.
 {% highlight ruby %}
 >> add(1, 3)
 => 4
