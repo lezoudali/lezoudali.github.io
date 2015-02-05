@@ -30,7 +30,7 @@ ArgumentError: wrong number of arguments (0 for 2)
 ArgumentError: wrong number of arguments (1 for 2)
 {% endhighlight %}
 
-As you see, we get this `ArgumentError` in both cases. In the first case, __add__ is expecting values for both `x` and `y`, but gets nothing. In the second case, __add__ is still expecting two values, for `x` and `y`, but gets no value for `y`. Thus, if we call the __add__ method without passing exactly two values we get an `ArgumentError` because the method doesn't have anything to add. This brings us to our second main focus of this post, **default arguments**.
+As you see, we get this `ArgumentError` in both cases. In the first case, __add__ is expecting values for both `x` and `y`, but gets nothing. In the second case, __add__ is still expecting two values, for `x` and `y`, but gets no value for `y`. Thus, if we call the __add__ method without passing exactly two values we get an `ArgumentError` because the method doesn't have anything to add. This is where setting **default arguments** could come in handy.
 Setting a default value to your paramater(s) can prevent you from getting an `ArgumentError`. Let's rewrite the __add__ method using default arguments for `x` and `y`.
 {% highlight ruby %}
 def add(x = 0, y = 0)
