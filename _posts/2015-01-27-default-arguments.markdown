@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Defaut Argument and ArgumentError
+title:  Defaut Argument, ArgumentError and the Splat operator.
 date:   2015-01-27 13:39:00
 categories: coding
 ---
