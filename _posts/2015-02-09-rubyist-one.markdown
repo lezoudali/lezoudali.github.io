@@ -58,22 +58,6 @@ end
 ##Example:
 
 {% highlight ruby %}
-if 1 != 2
-  puts "1 is not equal to 2"
-end
-{% endhighlight %}
-
-Refactores to:
-
-{% highlight ruby %}
-unless 1 == 2
-  puts "1 is not equal to 2"
-end
-{% endhighlight %}
-
-##Example:
-
-{% highlight ruby %}
 while x != 3
   puts x
   x += 1
