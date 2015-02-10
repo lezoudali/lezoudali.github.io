@@ -5,7 +5,7 @@ date:   2015-02-09 22:16:00
 categories: coding
 ---
 
-Most people tend to shy away from using "`until`" or "`unless`" when writing ruby code. I believe to become a true rubyist you must learn when and how to use them. They are really not that bad once you get the hang of it. "`unless`" and "`until`" are use for negative conditions. It can be confusing to understand at first but the main idea is to refactored your code to "`unless something`"" whenever you catch yourself writing "`if not something`". Same goes for "`until something`" and "`while not something`". The idea is to get rid of the negation is your conditions.
+Most people tend to shy away from using "`until`" or "`unless`" when writing ruby code. I believe to become a true rubyist you must learn when and how to use them. They are really not that bad once you get the hang of it. "`unless`" and "`until`" are use for negative conditions. It can be confusing to understand at first but the main idea is to refactored your code to "`unless something`" whenever you catch yourself writing "`if not something`". Same goes for "`until something`" and "`while not something`". The idea is to get rid of the negation is your conditions.
 
 ##Example:
 
