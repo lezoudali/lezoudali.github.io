@@ -15,7 +15,7 @@ if not @full
 end
 {% endhighlight %}
 
-Refactores to:
+Refactors to:
 
 {% highlight ruby %}
 unless @full
@@ -31,7 +31,7 @@ if 1 != 2
 end
 {% endhighlight %}
 
-Refactores to:
+Refactors to:
 
 {% highlight ruby %}
 unless 1 == 2
@@ -47,7 +47,7 @@ while !@full
 end
 {% endhighlight %}
 
-Refactores to:
+Refactors to:
 
 {% highlight ruby %}
 until @full
@@ -64,7 +64,7 @@ while x != 3
 end
 {% endhighlight %}
 
-Refactores to:
+Refactors to:
 
 {% highlight ruby %}
 until x == 3
