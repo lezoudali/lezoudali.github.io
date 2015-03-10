@@ -13,7 +13,7 @@ pry(main)> User.where(gender: 'F')
  #<User:0x007fa82397bda0 id: 4, name: "Rene Dumont", age: 17, gender: "F", donated: true>]
 {% endhighlight %}
 
-It returned two female users. We can write a name scope `females` in our User model which will return the two females when we call the method `females` on our `User` model. 
+The query returned two female users. We can write a named scope `females` in our User model which will return the two females when we call the method `females` on our `User` model. 
 
 {% highlight ruby %}
 class User < ActiveRecord::Base
