@@ -7,9 +7,9 @@ categories: coding
 
 Some people tend to shy away from using "`until`" or "`unless`" when writing ruby code. I believe to become a true rubyist you must learn when and how to use them. They are really not that bad once you get the hang of it. "`unless`" and "`until`" are use for negative conditions. It can be confusing to understand at first but the main idea is to refactor your code to "`unless something`" whenever you catch yourself writing "`if not something`". Same goes for "`until something`" and "`while not something`". The idea is to get rid of the negation in your conditions.
 
-##Example:
+###Example:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 if not @full
   :eat
 end
@@ -17,15 +17,15 @@ end
 
 Refactors to:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 unless @full
   :eat
 end
 {% endhighlight %}
 
-##Example:
+###Example:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 if 1 != 2
   puts "1 is not equal to 2"
 end
@@ -33,15 +33,15 @@ end
 
 Refactors to:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 unless 1 == 2
   puts "1 is not equal to 2"
 end
 {% endhighlight %}
 
-##Example:
+###Example:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 while !@full
   :keep_eating
 end
@@ -49,15 +49,15 @@ end
 
 Refactors to:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 until @full
   :keep_eating
 end
 {% endhighlight %}
 
-##Example:
+###Example:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 while x != 3
   puts x
   x += 1
@@ -66,7 +66,7 @@ end
 
 Refactors to:
 
-{% highlight ruby %}
+{% highlight ruby linenos%}
 until x == 3
   puts x
   x += 1

@@ -1,17 +1,28 @@
-name: CODE NOIR
-email: lezou.dali@gmail.com
-description: Journey to becoming a professional problem solver... oh and awesome developer.
-
-baseurl: ""
-url: http://lezoudali.com
-twitter_username: lezoudali
-github_username: lezoudali
-
-permalink: /:year/:month/:day/:title/
-paginate: 2
-highlighter: pygments
+# Site settings
+title: Code Noir | Lezou Dali
+description: "Journey to becoming a professional problem solver..."
+url: "http://www.lezoudali.com/"
+author:
+  name: "Lezou Dali"
+  url: "http://www.lezoudali.com"
 
 # Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
+

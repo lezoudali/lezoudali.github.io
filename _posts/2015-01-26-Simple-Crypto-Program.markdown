@@ -7,7 +7,7 @@ categories: coding
 
 For my first (real) post, I’ve decided to share one of the first, somewhat useful, programs I wrote when I started learning C. It’s a simple text encryption program called [Vigenère cypher][vigenere]. This program uses a cypher algorithm to encrypt a text by using a keyword. The Vigenère cypher is a more secure version of the [Caesar cypher][caesar], which uses a single character or an integer for a key. How exactly does the  Vigenère cypher work you ask? Well, Let’s say you want to communicate with your crush  via text messages and you really don’t want anyone else to know what you are talking about. You might want to use the Vigenère cipher with a keyword, which only you and crush know, to encrypt your messages. For example, using the keyword __belle__ (beautiful in french), the message __Wanna have lunch tomorrow?__ encrypts to __Xeyye iegp pvrns xpqzcvpa?__. The letter ‘b’ in the keyword corresponds to a shift of 1, ‘e’ corresponds to a shift of 4 and ‘l’ corresponds to a shift of 11. When writing this program, you must keep in mind that the alphabet and keyword act as wheel that wraps around itself when the last letter of the keyword or alphabet is reached.  We do not encrypt spaces or non alphabetical characters. see below...
 
-{% highlight c %}
+{% highlight c linenos %}
 #define MAX 200
 #include <stdio.h>
 #include <ctype.h>
@@ -50,7 +50,7 @@ int main(void){
 
 ###OUTPUT
 
-{% highlight c %}
+{% highlight c linenos%}
 message (< 140 chars): wanna have lunch tomorrow
 keyword: belle
 

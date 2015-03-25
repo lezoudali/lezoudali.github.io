@@ -9,7 +9,7 @@ The hardest part about programming for me is one, finding ways to stay motivated
 
 
 
-{% highlight c %}
+{% highlight c linenos %}
 printf("Bye World,  thank you for visiting and Stay Tuned!! \n!");
 {% endhighlight %}
 
