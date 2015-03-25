@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Controller Actions and CRUD
+title:  Basic CRUD in Rails
 date:   2015-03-25 01:45:00
 categories: coding
 ---
