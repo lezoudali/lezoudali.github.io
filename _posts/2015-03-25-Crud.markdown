@@ -8,16 +8,16 @@ categories: coding
 CRUD stands for Create, Read, Update and Delete. It's an acronym for operations used by developers to interact with the database. Each CRUD operation has two actions associated with it. For the rest of this post I will refer to an object in the database as a record. 
 
 ###Create 
-has the actions `new` and `create`. The `new` action renders the html form which will be filled with data for a new record. The `create` action recieves the data from the form, saves the new record in the database and redirects to the index page, which shows all the records.
+has the actions `new` and `create`. The `new` action renders the html form which will be filled with data for a new record. The form is submitted via a POST request. The `create` action recieves the data from the form, saves the new record in the database and redirects to the index page, which shows all the records.
 
 ###Read 
-has the actions `index` and `show`. The `index` action displays a list of all the records. `show` displays a single record, usually with more details about the record than shown in `index`.
+has the actions `index` and `show`. The `index` action displays a list of all the records. `Show` displays a single record, usually with more details about the record than shown in `index`. Both actions make a GET request.
 
 ###Update
-has the actions `edit` and `update`. `edit` renders an html form to be filled with updated information about an existing record in the database. Usually the form is pre populated with the record's current data. `update` receives the new data for the existing record, saves the record with the updated info into the database and redirects to the record's `show` action/page.
+has the actions `edit` and `update`. `edit` renders an html form to be filled with updated information about an existing record in the database. Usually the form is pre populated with the record's current data. The form is submitted via a PUT request. `Update` receives the new data for the existing record, saves the record with the updated info into the database and redirects to the record's `show` action/page.
 
 ###Delete
-has the actions `delete` and `destroy`. `delete` show the information for the record with a delete button. `destroy`, as you guessed, destroys the record from the database and redirects to the index action/page.
+has the actions `delete` and `destroy`. `Delete` show the information for the record with a delete button. It makes a DELETE request. `destroy`, as you guessed, destroys the record from the database and redirects to the index action/page.
 
 <img src="/img/crud.png">
 
