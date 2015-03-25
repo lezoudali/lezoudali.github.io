@@ -11,3 +11,13 @@ img.right {
   width: 30%; height: 30%;
   border-radius: 100%;
 }
+
+h1.logo {
+  display: inline;
+}
+
+img.img-logo {
+  display: inline;
+  float: left;
+  position: relative; right: 15px; bottom: 15px;
+}
