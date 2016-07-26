@@ -1,10 +1,10 @@
 # Site settings
 title: Code Noir | Lezou Dali
 description: "Journey to becoming a professional problem solver..."
-url: "http://www.lezoudali.com/"
+url: "lezoudali.github.io"
 author:
   name: "Lezou Dali"
-  url: "http://www.lezoudali.com"
+  url: "lezoudali.github.io"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
